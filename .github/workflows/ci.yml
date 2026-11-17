@@ -6,7 +6,7 @@ on:
       - main
       - develop
     types: [ opened, reopened ]
-    
+
 jobs: # Trabalhos a serem executados
   build: # Nome do trabalho pode ser qualquer um de sua escolha
     runs-on: ubuntu-latest # Sistema operacional a ser utilizado
